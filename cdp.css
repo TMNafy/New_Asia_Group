@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul.breadcrumb {
+    padding-top:10px;
+  list-style: none;
+  list-style: none;
+  
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+  color:white;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #eef1f3;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #eff1f3;
+  text-decoration: underline;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdp1.png");
+  height: 100%;
+  padding-top: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  font-family:Futura Book;
+  text-align:center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+div.ex1 {
+
+  color:#707070;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+    }
+hr{
+  display: block;
+  margin-left: 15px;
+  margin-right: 16px;
+
+}
+
+.map-container-5{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-5 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
